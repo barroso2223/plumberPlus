@@ -870,7 +870,7 @@ video {
 	#home .container {
 		margin-bottom: 4rem;
 		margin-right: 2rem;
-		animation: 8s ease-in mediaLetterFade;
+		animation: 9s ease-in mediaLetterFade;
 		z-index: 1;
 	}
 	
@@ -954,8 +954,8 @@ video {
     }
 
     .myLogo img {
-        width: 80%;
-		height: 80%;
+        width: 70%;
+		height: 70%;
 		object-fit: contain;
 		object-position: bottom;
 		padding-top: 3.5rem;
