@@ -864,7 +864,7 @@ video {
 
 	#home header {
 		height: 30dvh;
-		margin-top: -3rem;
+		margin-top: -1rem;
 	}
 
 	#home .container {
@@ -950,6 +950,7 @@ video {
 		height: 100%;
 		display: grid;
 		place-content: center;
+		object-position: bottom;
     }
 
     .myLogo img {
