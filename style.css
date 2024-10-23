@@ -871,6 +871,25 @@ video {
 		margin-bottom: 3rem;
 	}
 
+	#home .container {
+		margin-bottom: 4rem;
+		animation: 10s ease-in mediaLetterFade;
+		z-index: 1;
+	}
+	
+	@keyframes mediaLetterFade {
+		0% {
+			color: var(--clrMain100);
+		} 
+		95% {
+			color: var(--clrMain100);
+		}
+		100% {
+			color: var(--clrTheme1);
+		}
+		
+	}
+
     #navBar {
         display: flex;
 		flex-direction: column;
