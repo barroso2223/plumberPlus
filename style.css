@@ -627,8 +627,8 @@ video {
 
 #contactMe, 
 #Contacto {
-	color: var(--clrMain100);
-	background: var(--clrMain300);
+	color: var(--clrTheme1);
+	background: var(--clrMain100);
 	min-height: 100dvh;
 	max-width: 100dvw;
 	display: grid;
