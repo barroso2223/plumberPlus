@@ -211,7 +211,7 @@ header {
 	max-width: 100dvw;
 	height: clamp(75px, 18vh, 130px);
 	font-size: var(--fsNavBar);
-	margin-top: -2rem;
+	margin-top: .25rem;
 }
 
 nav {
@@ -275,6 +275,7 @@ nav ul li {
 }
 
 .logoContainer {
+	width: var(--logoWidth);
 	top: 0;
 	left: 0;
 }
@@ -286,9 +287,9 @@ nav ul li {
 }
 
 .myLogo img {
-	max-width: 100%;
-	height: 100%;
+	width: fit-content;
 	object-fit: cover;
+	inset: 0;
 	margin: -1rem;
 }
 
@@ -863,16 +864,12 @@ video {
 
 	#home header {
 		height: 30dvh;
-		padding-top: .25rem;
-	}
-
-	#home .desktop {
-		margin-top: -1rem;
-		margin-bottom: 3rem;
+		margin-top: -3rem;
 	}
 
 	#home .container {
 		margin-bottom: 4rem;
+		margin-right: 2rem;
 		animation: 10s ease-in mediaLetterFade;
 		z-index: 1;
 	}
@@ -922,7 +919,7 @@ video {
     } 
 
 	#navBar ul .faFonts {
-		margin-left: 2rem;
+		/* margin-left: 2rem; */
 		padding: 0 .5rem;
 		scale: 2;
 	}
@@ -943,14 +940,25 @@ video {
 		background: var(--clrTheme1);
 	}
 
+	.logoContainer {
+		width: 20rem;
+		height: 5rem;
+	}
+
     .myLogo {
-        width: var(--logoWidth);
-        margin: 0 auto;
-		margin-top: 1rem;
+        width: 100%;
+		height: 100%;
+		display: grid;
+		place-content: center;
+		overflow: hidden;
     }
 
     .myLogo img {
-        width: 70%;
+        width: 90%;
+		height: 90%;
+		object-fit: contain;
+		object-position: bottom;
+		padding-top: 3.5rem;
     }
 
 	.splitLeft,
