@@ -950,7 +950,6 @@ video {
 		height: 100%;
 		display: grid;
 		place-content: center;
-		overflow: hidden;
     }
 
     .myLogo img {
