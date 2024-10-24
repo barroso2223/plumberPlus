@@ -5,7 +5,7 @@
 	--clrTheme2: rgb(183, 243, 242);
     --clrHomeText: rgb(43, 59, 113);
 	--clrMain100: white;
-	--clrMain300: rgb(183, 230, 226);
+	--clrMain300: rgb(205, 218, 217);
 	--clrMain900: black;
     --bgaccent: rgb(151, 165, 165);
 	--ombreTheme: linear-gradient(45deg, var(--clrTheme2), var(--bgaccent), var(--clrTheme2));
@@ -693,7 +693,7 @@ video {
 .calendar {
 	width: clamp(300px, 40dvw, 600px);
 	max-height: 500px;
-	background: var(--clrMain100);
+	background: var(--clrMain300);
 	/* border: 2px solid var(--clrTheme2); */
 	box-shadow: 0 0 15px var(--clrMain100);
 	border-radius: .5rem;
@@ -701,8 +701,27 @@ video {
 	place-items: center;
 }
 
+.calendly-inline-widget {
+    margin-top: .5rem;
+    border-radius: .5rem;
+
+}
+
 .calendar a {
 	color: var(--clrTheme1);
+}
+
+.calendar span {
+    border: 1px solid var(--clrTheme1);
+    border-radius: .5rem;
+    width: fit-content;
+    height: min-content;
+    padding: .125rem;
+    font-family: var(--ffTheme);
+    font-weight: 600;
+    background: var(--ombreTheme);
+    color: var(--clrTheme1);
+    gap: 1rem;
 }
 
 #footer {
